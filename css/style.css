@@ -1,0 +1,115 @@
+:root{
+    --color-primary: #F2D43D;
+    --color-secondary: #F2E18D;
+    --color-accent: #00d9ff;
+    --color-headings: #0D0D0D;
+    --color-body: #0D0D0D;
+    --color-body-darker: #F2F2F2;
+    --color-border: #ccc;
+    --border-radius: 30px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+
+    font-family: 'Krona One', sans-serif;
+    color: var(--color-body); 
+    font-size: 2.4rem;
+    line-height: 1.5;
+} 
+h1, h2, h3 {
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+    line-height: 1.1;
+
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+p{
+    margin-top: 0;
+}
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 1.8rem;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    
+}
+/*LINKS*/
+
+a {
+    text-decoration: none;
+}
+.link-arrow{
+    color: var(--color-accent);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.link-arrow::after{
+    content: "->";
+    margin-left: 5px;
+}
+.link-arrow:hover::after{
+    margin-left: 10px;
+    transition: margin 0.5s;
+}
+@media screen and (min-width: 1024px) {
+    .link-arrow{
+        font-size: 1.5rem;
+    }
+}
+
+/*ICONS*/
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.icon--small{
+    width: 30px;
+    height: 30px;
+}
+.icon--primary{
+    fill: var(--color-primary);
+}
+.icon--white{
+    fill: #fff;
+}
+
+.icon-container{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: #f3f9fa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container--accent{
+    background-color: var(--color-accent);
+    
+}
+
