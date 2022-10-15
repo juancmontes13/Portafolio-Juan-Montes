@@ -17,19 +17,23 @@ html{
 }
 body{
 
-    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+    
     color: var(--color-body); 
     font-size: 2.4rem;
     line-height: 1.5;
     margin: 0;
 } 
 h1, h2, h3 {
+    font-family: 'Hind Guntur', sans-serif;
     color: var(--color-headings);
     margin-bottom: 1rem;
     line-height: 1.1;
-
+}
+ h2, h3 {
+    font-family:'Tauri', sans-serif;
 }
 h1{
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
     font-size: 4rem;
 }
 h2{
