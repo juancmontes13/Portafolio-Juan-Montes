@@ -17,7 +17,7 @@ html{
 }
 body{
 
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
     color: var(--color-body); 
     font-size: 2.4rem;
     line-height: 1.5;
@@ -180,6 +180,16 @@ a {
     padding-left: 0;
    
 }
+
+/*CARD*/
+
+.card {
+    margin: 5rem;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden; /*para que me conserve las propiedadesdel contenedor padre*/
+}
+
 /*NAVIGATION BAR*/
 
 .nav{
@@ -274,6 +284,24 @@ a {
     }
 }
 
+/*GRID*/
+
+.grid{
+    display: grid;
+    gap: 5rem;
+    align-self: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid--1x3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 /*PROFILE IMAGE*/
 
 
@@ -281,4 +309,13 @@ a {
     width: 100%;
     max-width: 400px;
     border-radius: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/*PROFILE TEXT*/
+
+.quote__text {
+    padding: 2rem;
+    margin: 0;
 }
