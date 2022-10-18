@@ -17,24 +17,20 @@ html{
 }
 body{
 
-    
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
     color: var(--color-body); 
     font-size: 2.4rem;
     line-height: 1.5;
     margin: 0;
 } 
 h1, h2, h3 {
-    font-family: 'Hind Guntur', sans-serif;
     color: var(--color-headings);
     margin-bottom: 1rem;
     line-height: 1.1;
 }
- h2, h3 {
-    font-family:'Tauri', sans-serif;
-}
+
 h1{
-    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 h2{
     font-size: 4rem;
@@ -321,5 +317,21 @@ a {
 
 .quote__text {
     padding: 2rem;
+    margin: 0;
+}
+
+/*HABILIDADES*/
+
+.habilities__header{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+}
+.habilities__text{
     margin: 0;
 }
