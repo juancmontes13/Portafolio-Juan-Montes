@@ -90,7 +90,7 @@ a {
     height: 30px;
 }
 .icon--primary{
-    fill: var(--color-primary);
+    fill: var(--color-accent);
 }
 .icon--white{
     fill: #fff;
@@ -100,10 +100,11 @@ a {
     width: 64px;
     height: 64px;
     border-radius: 100%;
-    background-color: #f3f9fa;
+    background-color: #000;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 .icon-container--accent{
     background-color: var(--color-accent);
@@ -437,4 +438,19 @@ max-width: 400px;
         color: #000;
     }
 
+}
+
+/*FOOTER*/
+
+
+.footer__text{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.footer--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
