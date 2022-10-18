@@ -335,3 +335,13 @@ a {
 .habilities__text{
     margin: 0;
 }
+/*HABILIDADES CONTENT*/
+
+.abilities--container { 
+    display: flex;
+    justify-content: space-evenly;
+}
+.abilities--container .icon {
+    width: 60px;
+    height: 60px;
+}
