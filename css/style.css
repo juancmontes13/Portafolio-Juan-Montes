@@ -507,7 +507,7 @@ margin: 5rem auto;
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-image: url(../images/galaxy.jpg);
+    background: url(../images/galaxy.jpg);
     background-position: center; 
     background-size: cover;
 }
