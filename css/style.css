@@ -673,3 +673,58 @@ transition: 1s;
         font-size: 3rem;
     }
 }
+
+/* STORE */ 
+
+.storeBody{
+background-image: url(../images/galaxy.jpg);
+background-position: center;
+background-size:cover ;
+font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+color: var(--color-primary);
+font-weight: 600;
+}
+.plans--section{
+    margin-top: 10rem;
+}
+.card--text__precio{
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 2.5rem 2.5rem 10rem 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 217, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 217, 255, 0.3);
+   
+    
+
+}
+.list--plans{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.plans--items {
+    color: #fff;
+}
+@media screen and (min-width: 740px) {
+    .list--plans{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+   
+}
